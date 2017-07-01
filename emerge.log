@@ -1,0 +1,366 @@
+
+These are the packages that would be merged, in order:
+
+Calculating dependencies  ............ done!
+[ebuild     U  ] sys-libs/glibc-2.23-r4:2.2::gentoo [2.23-r3:2.2::gentoo] USE="hardened (multilib) rpc -audit -caps -debug -gd -nscd (-profile) (-selinux) -suid -systemtap -vanilla" 21,313 KiB
+[ebuild     U  ] app-arch/bzip2-1.0.6-r8::gentoo [1.0.6-r7::gentoo] USE="-static -static-libs" ABI_X86="(64) -32 (-x32)" 764 KiB
+[ebuild     U  ] sys-apps/opentmpfiles-0.1.3::gentoo [0.1.2::gentoo] USE="(-selinux)" 6 KiB
+[ebuild     U  ] sys-kernel/linux-firmware-20170314::gentoo [20161205::gentoo] USE="-savedconfig" 42,164 KiB
+[ebuild   R    ] sys-libs/cracklib-2.9.6-r1::gentoo  USE="nls zlib -python -static-libs (-test%)" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4%* (-python3_5) (-python3_6)" 628 KiB
+[ebuild     U  ] sys-apps/file-5.30::gentoo [5.29::gentoo] USE="zlib -python -static-libs" ABI_X86="(64) -32 (-x32)" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 771 KiB
+[ebuild     U  ] dev-libs/vala-common-0.34.8::gentoo [0.34.7::gentoo] 2,714 KiB
+[ebuild     U  ] sys-libs/libseccomp-2.3.2::gentoo [2.3.0::gentoo] USE="-static-libs" ABI_X86="(64) -32 (-x32)" 547 KiB
+[ebuild     U  ] media-libs/libjpeg-turbo-1.5.1::gentoo [1.5.0::gentoo] USE="-java -static-libs" ABI_X86="(64) -32 (-x32)" 1,612 KiB
+[ebuild     U  ] media-libs/jbig2dec-0.13-r4::gentoo [0.13-r1::gentoo] USE="png -static-libs {-test}" 0 KiB
+[ebuild   R    ] net-misc/iputils-20151218::gentoo  USE="arping* ipv6 ssl -SECURITY_HAZARD -caps -clockdiff -doc -filecaps -gcrypt -idn (-libressl) -rarpd -rdisc -static -tftpd -tracepath -traceroute" 176 KiB
+[ebuild  NS    ] app-editors/emacs-25.2:25::gentoo [24.5-r3:24::gentoo] USE="X acl alsa dbus gif gpm gtk3 inotify jpeg pax_kernel png source ssl svg tiff xft xpm zlib -Xaw3d (-aqua) -athena (-cairo) -dynamic-loading -games -gconf -gfile -gsettings -gtk -gzip-el -hesiod -imagemagick -kerberos -libxml2 -livecd -m17n-lib -motif (-selinux) -sound -toolkit-scroll-bars -wide-int (-xwidgets)" 45,802 KiB
+[ebuild     U  ] virtual/emacs-25::gentoo [24::gentoo] 0 KiB
+[ebuild     U  ] app-eselect/eselect-ruby-20161226::gentoo [20131227::gentoo] 0 KiB
+[ebuild     U  ] app-text/psutils-1.17-r3::gentoo [1.17-r2::gentoo] 0 KiB
+[ebuild  N     ] perl-core/File-Path-2.130.0::gentoo  31 KiB
+[ebuild  N     ] virtual/perl-File-Path-2.130.0::gentoo  0 KiB
+[ebuild     U  ] dev-lang/perl-5.24.1-r2:0/5.24::gentoo [5.22.3_rc4:0/5.22::gentoo] USE="berkdb gdbm -debug -doc -ithreads" 11,414 KiB
+[ebuild     U  ] virtual/perl-Data-Dumper-2.160.0-r1::gentoo [2.158.0-r1::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-Scalar-List-Utils-1.420.200_rc-r1::gentoo [1.410.0-r1::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-ExtUtils-MakeMaker-7.100.200_rc::gentoo [7.40.200_rc::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-File-Spec-3.630.100_rc::gentoo [3.560.200_rc::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-Test-Harness-3.360.100_rc::gentoo [3.350.100_rc::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-Getopt-Long-2.480.0-r1::gentoo [2.450.0-r1::gentoo] 0 KiB
+[ebuild  N     ] virtual/perl-Carp-1.400.0-r1::gentoo  0 KiB
+[ebuild     U  ] virtual/perl-MIME-Base64-3.150.0-r3::gentoo [3.150.0-r2::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-libnet-3.80.100_rc::gentoo [3.50.100_rc::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-Digest-SHA-5.950.100_rc-r2::gentoo [5.950.100_rc-r1::gentoo] 0 KiB
+[ebuild     U  ] virtual/perl-Digest-MD5-2.540.0-r3::gentoo [2.540.0-r2::gentoo] 0 KiB
+[ebuild     U  ] dev-perl/libintl-perl-1.240.0-r2::gentoo [1.240.0::gentoo] 592 KiB
+[ebuild     U  ] dev-perl/Net-SSLeay-1.810.0::gentoo [1.800.0::gentoo] USE="-examples (-libressl) -minimal {-test}" 388 KiB
+[ebuild     U  ] app-eselect/eselect-postgresql-2.1::gentoo [1.2.1::gentoo] 5 KiB
+[ebuild     U  ] media-libs/freetype-2.8:2::gentoo [2.7.1-r2:2::gentoo] USE="X adobe-cff bzip2 cleartype_hinting png -bindist -debug -doc -fontforge -harfbuzz -infinality -static-libs -utils" ABI_X86="(64) -32 (-x32)" 1,830 KiB
+[ebuild   R    ] net-misc/rsync-3.1.2::gentoo  USE="acl iconv ipv6 xattr -examples% -static -stunnel" 872 KiB
+[ebuild     U  ] dev-libs/nss-3.29.5::gentoo [3.28.1::gentoo] USE="nss-pem -cacert -utils" ABI_X86="(64) -32 (-x32)" 7,305 KiB
+[ebuild     U  ] net-libs/libtirpc-1.0.1-r1:0/3::gentoo [1.0.1:0/3::gentoo] USE="ipv6 -kerberos -static-libs" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] app-text/dvipsk-5.996_p20160523::gentoo [5.995_p20150521::gentoo] USE="-doc -source" 34 KiB
+[ebuild     U  ] media-libs/libsndfile-1.0.28-r1::gentoo [1.0.26::gentoo] USE="alsa -minimal -sqlite -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 1,175 KiB
+[ebuild     U  ] dev-tex/bibtexu-3.71_p20160523::gentoo [3.71_p20150521::gentoo] USE="-doc -source" 10 KiB
+[ebuild     U  ] app-text/ps2pkm-1.8_p20160523::gentoo [1.7_p20150521::gentoo] 0 KiB
+[ebuild     U  ] net-nds/rpcbind-0.2.4-r1::gentoo [0.2.4::gentoo] USE="tcpd -debug (-selinux) -systemd -warmstarts" 0 KiB
+[ebuild     U  ] app-text/ttf2pk2-2.0_p20160523::gentoo [2.0_p20150521::gentoo] 0 KiB
+[ebuild     U  ] dev-qt/qtcore-4.8.7-r2:4::gentoo [4.8.6-r2:4::gentoo] USE="exceptions glib iconv ssl (-aqua) -debug -icu (-libressl) (-pch) -qt3support" ABI_X86="(64) -32 (-x32)" 235,426 KiB
+[ebuild     U  ] dev-qt/qttranslations-4.8.7:4::gentoo [4.8.6-r1:4::gentoo] ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] dev-qt/qtscript-4.8.7:4::gentoo [4.8.6-r2:4::gentoo] USE="exceptions (-aqua) -debug -jit (-pch)" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] dev-lang/ocaml-4.04.2:0/4.04.2::gentoo [4.04.0:0/4.04.0::gentoo] USE="X emacs ncurses ocamlopt -flambda -latex -xemacs" 3,967 KiB
+[ebuild     U  ] dev-vcs/mercurial-4.2::gentoo [3.8.4::gentoo] USE="emacs -bugzilla -gpg {-test} -tk" PYTHON_TARGETS="python2_7" 5,180 KiB
+[ebuild  NS    ] sys-devel/binutils-2.28-r2:2.28::gentoo [2.25.1-r1:2.25.1::gentoo, 2.26.1:2.26.1::gentoo] USE="cxx nls -multitarget -static-libs {-test} -vanilla" 25,952 KiB
+[ebuild     U  ] sys-apps/texinfo-6.3::gentoo [6.1::gentoo] USE="nls -static" 4,364 KiB
+[ebuild     U  ] dev-db/postgresql-9.5.7:9.5::gentoo [9.5.5:9.5::gentoo] USE="nls pam readline server ssl zlib -doc -kerberos -ldap (-libressl) -perl -pg_legacytimestamp -python (-selinux) -static-libs -tcl -threads -uuid -xml" LINGUAS="en fr -af -cs -de -es -fa -hr -hu -it -ko -nb -pl -pt_BR -ro -ru -sk -sl -sv -tr -zh_CN -zh_TW" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5) (-python3_6)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 18,203 KiB
+[blocks b      ] <dev-db/postgresql-9.5.6-r1:9.5 ("<dev-db/postgresql-9.5.6-r1:9.5" is blocking app-eselect/eselect-postgresql-2.1)
+[ebuild  NS    ] sys-devel/gcc-5.4.0-r3:5.4.0::gentoo [4.9.4:4.9.4::gentoo] USE="cxx hardened (multilib) nls nptl openmp vtv (-altivec) (-awt) -cilk -debug -doc (-fixed-point) -fortran -gcj -go -graphite (-jit) (-libssp) -mpx -nopie -nossp -objc -objc++ -objc-gc -regression-test (-sanitize) -vanilla" 93,468 KiB
+[ebuild  NS    ] sys-kernel/gentoo-sources-4.9.34:4.9.34::gentoo [4.9.6-r1:4.9.6-r1::gentoo, 4.9.16:4.9.16::gentoo] USE="-build -experimental -symlink" 784 KiB
+[ebuild     U  ] dev-libs/libtasn1-4.10-r2:0/6::gentoo [4.10-r1:0/6::gentoo] USE="-doc -static-libs -valgrind" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] sys-devel/automake-1.15-r2:1.15::gentoo [1.15:1.15::gentoo] 1,462 KiB
+[ebuild     U  ] media-libs/tiff-4.0.8::gentoo [4.0.7::gentoo] USE="cxx jpeg zlib -jbig -lzma -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 2,018 KiB
+[ebuild     U  ] dev-libs/expat-2.2.1::gentoo [2.2.0-r1::gentoo] USE="unicode -examples -static-libs" ABI_X86="(64) -32 (-x32)" 396 KiB
+[ebuild     U  ] dev-libs/libpthread-stubs-0.4::gentoo [0.3-r1::gentoo] USE="-static-libs" ABI_X86="(64) -32 (-x32)" 57 KiB
+[ebuild     U  ] dev-lang/spidermonkey-1.8.5-r6:0/mozjs185::gentoo [1.8.5-r4:0/mozjs185::gentoo] USE="-debug -minimal -static-libs {-test}" 0 KiB
+[ebuild     U  ] dev-libs/libgcrypt-1.7.8:0/20::gentoo [1.7.6:0/20::gentoo] USE="-doc -static-libs" ABI_X86="(64) -32 (-x32)" 2,830 KiB
+[ebuild     U  ] net-misc/curl-7.54.1::gentoo [7.53.0::gentoo] USE="ipv6 ssl -adns -http2 -idn -kerberos -ldap -metalink -rtmp -samba -ssh -static-libs {-test} -threads" ABI_X86="(64) -32 (-x32)" CURL_SSL="openssl -axtls -gnutls (-libressl) -mbedtls -nss (-winssl) (-polarssl%)" 2,552 KiB
+[ebuild     U  ] app-text/hunspell-1.6.1-r1:0/1.6::gentoo [1.3.3:0/0::gentoo] USE="ncurses nls readline -static-libs" L10N="en fr -af -bg -ca -cs -cy -da -de -de-1901 -el -eo -es -et -fo -ga -gl -he -hr -hu -ia -id -is -it -km -ku -lt -lv -mi% -mk -ms -nb -nl -nn -pl -pt -pt-BR -ro -ru -sk -sl -sq -sv -sw -tn -uk -zu" 691 KiB
+[ebuild     U  ] dev-libs/icu-58.2-r1:0/58.2::gentoo [58.1-r1:0/58.1::gentoo] USE="-debug -doc -examples -static-libs" ABI_X86="(64) -32 (-x32)" 22,823 KiB
+[ebuild     U  ] x11-apps/xkbcomp-1.4.0::gentoo [1.3.1::gentoo] 239 KiB
+[ebuild  N     ] x11-libs/libXxf86dga-1.1.4::gentoo  USE="-static-libs" ABI_X86="(64) -32 (-x32)" 274 KiB
+[ebuild     U  ] app-pda/libplist-2.0.0:0/3.1.0::gentoo [1.12:0/3::gentoo] USE="-python -static-libs" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 412 KiB
+[ebuild     U  ] media-gfx/sam2p-0.49.3::gentoo [0.49.1::gentoo] USE="gif -examples" 2,134 KiB
+[ebuild   R    ] media-libs/lcms-2.8-r1:2::gentoo  USE="jpeg threads tiff* zlib -doc -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild   R    ] www-client/links-2.14:2::gentoo  USE="X bzip2 fbcon gpm ipv6 jpeg libevent ssl tiff* unicode zlib -directfb (-libressl) -livecd -lzma (-suid) (-svga)" 0 KiB
+[ebuild     U  ] dev-util/ninja-1.7.2::gentoo [1.6.0::gentoo] USE="emacs -doc {-test} -vim-syntax -zsh-completion" 177 KiB
+[ebuild     U  ] dev-libs/libevdev-1.5.7::gentoo [1.5.6::gentoo] USE="-static-libs" ABI_X86="(64) -32 (-x32)" 398 KiB
+[ebuild  N     ] dev-python/appdirs-1.4.3::gentoo  PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 10 KiB
+[ebuild  N     ] dev-python/pyparsing-2.1.10::gentoo  USE="-doc -examples" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 1,202 KiB
+[ebuild     U  ] x11-misc/shared-mime-info-1.8::gentoo [1.4::gentoo] USE="{-test}" 576 KiB
+[ebuild   R    ] x11-libs/libxcb-1.12-r2:0/1.12::gentoo  USE="xkb* -doc (-selinux) -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] sys-apps/portage-2.3.6::gentoo [2.3.3::gentoo] USE="(ipc) native-extensions (xattr) -build -doc -epydoc (-selinux)" LINGUAS="-ru" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 921 KiB
+[ebuild  N     ] dev-python/packaging-16.8::gentoo  USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 44 KiB
+[ebuild     U  ] dev-libs/libcroco-0.6.12-r1:0.6::gentoo [0.6.11:0.6::gentoo] USE="{-test}" ABI_X86="(64) -32 (-x32)" 471 KiB
+[ebuild     U  ] dev-cpp/glibmm-2.50.1:2::gentoo [2.50.0:2::gentoo] USE="-debug -doc {-test}" ABI_X86="(64) -32 (-x32)" 6,294 KiB
+[ebuild  N     ] x11-libs/libxkbcommon-0.7.1::gentoo  USE="X -doc -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 608 KiB
+[ebuild   R    ] dev-libs/gobject-introspection-1.50.0::gentoo  USE="cairo* -doctool {-test}" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5)" 0 KiB
+[ebuild     U  ] dev-python/setuptools-34.0.2-r1::gentoo [30.4.0::gentoo] USE="{-test}" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 604 KiB
+[ebuild     U  ] dev-python/certifi-2017.4.17::gentoo [2016.9.26::gentoo] PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-pypy3) (-python3_5) (-python3_6)" 365 KiB
+[ebuild   R    ] dev-python/pillow-3.4.2-r1::gentoo  USE="jpeg jpeg2k* lcms* tiff* truetype zlib -doc -examples {-test} -tk -webp" PYTHON_TARGETS="python2_7 python3_4 (-pypy) (-python3_5) (-python3_6)" 0 KiB
+[ebuild   R    ] media-libs/libwebp-0.5.2:0/6::gentoo  USE="gif jpeg opengl png tiff* -experimental (-neon) -static-libs -swap-16bit-csp" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="sse2 -avx2 -sse4_1" 0 KiB
+[ebuild   R    ] media-libs/gd-2.2.4:2/3::gentoo  USE="jpeg png tiff* truetype xpm* zlib -fontconfig -static-libs -webp" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] x11-libs/gdk-pixbuf-2.36.6:2::gentoo [2.36.5:2::gentoo] USE="X introspection jpeg jpeg2k* tiff* -debug {-test}" ABI_X86="(64) -32 (-x32)" 5,046 KiB
+[ebuild     U  ] sys-apps/hwids-20170328::gentoo [20150717-r1::gentoo] USE="net pci udev usb" 2,002 KiB
+[ebuild     U  ] x11-libs/libdrm-2.4.80::gentoo [2.4.75::gentoo] USE="-libkms -static-libs -valgrind" ABI_X86="(64) -32 (-x32)" VIDEO_CARDS="intel -amdgpu (-exynos) (-freedreno) -nouveau (-omap) -radeon (-tegra) (-vc4) (-vivante) -vmware" 754 KiB
+[ebuild     U  ] media-libs/mesa-17.0.6::gentoo [13.0.5::gentoo] USE="classic dri3 egl gallium gbm llvm nptl pax_kernel pic -bindist -d3d9 -debug -gles1 -gles2 -opencl -openmax -osmesa (-selinux) -vaapi -valgrind -vdpau -vulkan -wayland -xa -xvmc (-gcrypt%) (-libressl%) (-nettle%*) (-openssl%)" ABI_X86="(64) -32 (-x32)" VIDEO_CARDS="i915 i965 intel (-freedreno) -imx% -nouveau -r100 -r200 -r300 -r600 -radeon -radeonsi (-vc4) (-vivante) -vmware" 9,273 KiB
+[ebuild     U  ] x11-drivers/xf86-video-intel-2.99.917_p20170313::gentoo [2.99.917_p20170216::gentoo] USE="dri sna udev -debug -dri3 -tools -uxa -xvmc" 924 KiB
+[ebuild     U  ] media-libs/libepoxy-1.4.2::gentoo [1.4.1::gentoo] USE="X {-test}" ABI_X86="(64) -32 (-x32)" 303 KiB
+[ebuild     U  ] x11-base/xorg-server-1.19.3:0/1.19.3::gentoo [1.19.2:0/1.19.2::gentoo] USE="glamor ipv6 suid udev xorg -debug -dmx -doc -kdrive (-libressl) -minimal (-selinux) -static-libs -systemd -tslib -unwind -wayland -xephyr -xnest -xvfb" 5,909 KiB
+[ebuild   R    ] sys-apps/util-linux-2.28.2::gentoo  USE="cramfs ncurses nls pam readline suid udev* unicode -build -caps -fdformat -kill -python (-selinux) -slang -static-libs -systemd {-test} -tty-helpers" ABI_X86="(64) -32 (-x32)" PYTHON_SINGLE_TARGET="python3_4* -python2_7* (-python3_5) (-python3_6)" PYTHON_TARGETS="python2_7 python3_4 (-python3_5) (-python3_6)" 4,053 KiB
+[ebuild   R    ] dev-libs/libusb-1.0.19-r1:1::gentoo  USE="udev* -debug -doc -examples -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild   R    ] virtual/libusb-1-r2:1::gentoo  USE="udev*" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] net-fs/nfs-utils-1.3.4-r1::gentoo [1.3.4::gentoo] USE="ipv6 libmount nfsidmap nfsv4 tcpd uuid -caps -kerberos -nfsdcld -nfsv41 (-selinux)" 0 KiB
+[ebuild     U  ] app-arch/libarchive-3.3.1:0/13::gentoo [3.2.2-r1:0/13::gentoo] USE="acl bzip2 e2fsprogs iconv lzma threads xattr zlib -expat (-libressl) -lz4 -lzo -nettle -static-libs" ABI_X86="(64) -32 (-x32)" 6,075 KiB
+[ebuild   R    ] net-libs/libmbim-1.14.0::gentoo  USE="udev* -static-libs" 0 KiB
+[ebuild   R    ] media-libs/libgphoto2-2.5.12:0/6::gentoo  USE="exif* jpeg nls -doc -examples -gd -serial" ABI_X86="(64) -32 (-x32)" CAMERAS="adc65 agfa_cl20 aox ax203 barbie canon casio_qv clicksmart310 digigr8 digita dimagev dimera3500 directory enigma13 fuji gsmart300 hp215 iclick jamcam jd11 jl2005a jl2005c kodak_dc120 kodak_dc210 kodak_dc240 kodak_dc3200 kodak_ez200 konica konica_qm150 largan lg_gsm mars mustek panasonic_coolshot panasonic_dc1000 panasonic_dc1580 panasonic_l859 pccam300 pccam600 pentax polaroid_pdc320 polaroid_pdc640 polaroid_pdc700 ptp2 ricoh ricoh_g3 samsung sierra sipix_blink2 sipix_web2 smal sonix sony_dscf1 sony_dscf55 soundvision spca50x sq905 st2205 stv0674 stv0680 sx330z topfield toshiba_pdrm11 tp6801" 0 KiB
+[ebuild     U  ] dev-qt/qtgui-4.8.7:4::gentoo [4.8.6-r4:4::gentoo] USE="accessibility exceptions glib mng* tiff* xv (-aqua) -cups -debug -egl -gtkstyle -nas -nis (-pch) -qt3support -trace -xinerama" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] sys-boot/grub-2.02:2/2.02::gentoo [2.02_beta3-r1:2/2.02_beta3-r1::gentoo] USE="fonts nls sdl* themes truetype -debug -device-mapper -doc -efiemu (-libzfs) -mount -multislot -static {-test}" GRUB_PLATFORMS="efi-64 pc -coreboot -efi-32 -emu -ieee1275 -loongson -multiboot -qemu -qemu-mips -uboot -xen -xen-32" 7,707 KiB
+[ebuild   R    ] app-text/libgxps-0.2.5::gentoo  USE="introspection jpeg lcms* tiff* -debug -static-libs" 0 KiB
+[ebuild     U  ] media-gfx/graphite2-1.3.10::gentoo [1.3.8::gentoo] USE="-perl {-test}" ABI_X86="(64) -32 (-x32)" 3,799 KiB
+[ebuild   R    ] app-text/poppler-0.45.0:0/62::gentoo  USE="cairo cxx introspection jpeg jpeg2k lcms png tiff* utils (-cairo-qt) -cjk -curl -debug -doc -nss -qt4 -qt5" 0 KiB
+[ebuild     U  ] media-libs/glfw-3.2.1::gentoo [3.1.2::gentoo] USE="-examples -wayland% (-egl%)" 640 KiB
+[ebuild  N     ] media-gfx/exiv2-0.25-r2:0/14::gentoo  USE="nls png -doc -examples -webready -xmp" ABI_X86="(64) -32 (-x32)" LINGUAS="fr -bs -de -es -fi -gl -ms -pl -pt -ru -sk -sv -ug -uk -vi" 5,307 KiB
+[ebuild  N     ] media-libs/lensfun-0.3.1::gentoo  USE="-doc {-test}" CPU_FLAGS_X86="sse sse2" PYTHON_TARGETS="python2_7" 745 KiB
+[ebuild  NS    ] media-libs/openjpeg-1.5.2:0/5::gentoo [2.1.1_p20160922:2/7::gentoo] USE="-doc -static-libs {-test}" ABI_X86="(64) -32 (-x32)" 1,354 KiB
+[ebuild     U  ] sys-apps/dbus-1.10.18::gentoo [1.10.12::gentoo] USE="X -debug -doc (-elogind) (-selinux) -static-libs -systemd {-test} -user-session" ABI_X86="(64) -32 (-x32)" 1,941 KiB
+[ebuild  N     ] media-gfx/ufraw-0.22::gentoo  USE="openmp -contrast -fits -gimp -gnome -gtk -timezone" 1,078 KiB
+[ebuild     U  ] app-i18n/man-pages-fr-3.40.1::gentoo [2.39.0::gentoo] 1,110 KiB
+[ebuild     U  ] x11-libs/pango-1.40.5::gentoo [1.40.4::gentoo] USE="X introspection {-test}" ABI_X86="(64) -32 (-x32)" 1,041 KiB
+[ebuild     U  ] app-text/ghostscript-gpl-9.21::gentoo [9.20-r1::gentoo] USE="X dbus tiff* unicode%* -cups -gtk -static-libs (-idn%)" L10N="-de -ja -ko -zh-CN -zh-TW" 28,488 KiB
+[ebuild     U  ] dev-libs/dbus-glib-0.108::gentoo [0.102::gentoo] USE="-debug -static-libs {-test} (-doc%)" ABI_X86="(64) -32 (-x32)" 794 KiB
+[ebuild     U  ] net-wireless/wpa_supplicant-2.6-r1::gentoo [2.6::gentoo] USE="dbus hs2-0 readline ssl -ap -eap-sim -fasteap -gnutls (-libressl) -p2p (-ps3) -qt5 (-selinux) -smartcard -tdls -uncommon-eap-types (-wimax) -wps (-qt4%)" 0 KiB
+[ebuild     U  ] app-text/mupdf-1.11-r1:0/1.11::gentoo [1.10a-r2:0/1.10a::gentoo] USE="X curl opengl openssl -javascript (-libressl) -static -static-libs -vanilla" 39,215 KiB
+[ebuild     U  ] gnome-base/librsvg-2.40.17:2::gentoo [2.40.16:2::gentoo] USE="introspection -tools -vala" ABI_X86="(64) -32 (-x32)" 560 KiB
+[ebuild   R    ] net-libs/libpcap-1.8.1::gentoo  USE="bluetooth* dbus -netlink -static-libs -usb" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] x11-themes/adwaita-icon-theme-3.22.0-r2::gentoo [3.22.0::gentoo] USE="-branding" 0 KiB
+[ebuild     U  ] media-libs/clutter-1.26.2:1.0::gentoo [1.26.0:1.0::gentoo] USE="X introspection (-aqua) -debug -doc -egl -gtk {-test} -wayland" 5,229 KiB
+[ebuild   R    ] app-text/djvu-3.5.25.3::gentoo  USE="jpeg tiff* -debug -doc -xml" 0 KiB
+[ebuild     U  ] x11-libs/gtk+-3.22.15:3::gentoo [3.22.11:3::gentoo] USE="X introspection (-aqua) -broadway -cloudprint -colord -cups -examples {-test} -vim-syntax -wayland -xinerama" ABI_X86="(64) -32 (-x32)" 18,226 KiB
+[ebuild   R    ] media-gfx/imagemagick-6.9.7.4:0/6.9.7.4::gentoo  USE="X bzip2 cxx djvu jpeg jpeg2k* lcms* openexr* openmp png postscript* raw* svg tiff* truetype wmf* zlib -autotrace -corefonts -fftw -fontconfig -fpx -graphviz -hdri -jbig -lqr -lzma (-opencl) -pango -perl -q32 -q64 -q8 -static-libs {-test} -webp -xml" 0 KiB
+[ebuild     U  ] media-libs/clutter-gst-3.0.24:3.0::gentoo [3.0.22:3.0::gentoo] USE="X introspection udev* -debug -examples" 409 KiB
+[ebuild   R    ] gnome-base/gnome-desktop-3.22.2:3/12::gentoo  USE="introspection udev* -debug {-test}" 0 KiB
+[ebuild     U  ] app-crypt/gnupg-2.1.20-r1::gentoo [2.1.18::gentoo] USE="bzip2 gnutls nls readline smartcard -doc -ldap (-selinux) -tofu -tools -usb -wks-server" 6,305 KiB
+[ebuild     U  ] dev-vcs/git-2.13.0::gentoo [2.10.2::gentoo] USE="blksha1 curl emacs gpg iconv nls pcre perl python threads webdav -cgi -cvs -doc -gnome-keyring -highlight (-libressl) -mediawiki -mediawiki-experimental (-ppcsha1) -subversion {-test} -tk -xinetd (-gtk%)" LINGUAS="fr -bg -ca -de -is -it -ko -pt_PT -ru -sv -vi -zh_CN" PYTHON_TARGETS="python2_7" 5,032 KiB
+[ebuild  N     ] media-libs/libsdl2-2.0.4::gentoo  USE="X alsa dbus joystick opengl pulseaudio sound threads udev video (-altivec) (-custom-cflags) (-fusionsound) -gles -haptic -nas -oss -static-libs -tslib -wayland -xinerama -xscreensaver" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="mmx sse sse2 -3dnow" 4,040 KiB
+[ebuild   R    ] media-video/ffmpeg-3.2.4:0/55.57.57::gentoo  USE="X alsa bzip2 encode gpl hardcoded-tables iconv jpeg2k* network opengl pic postproc pulseaudio sdl* threads truetype xcb zlib (-altivec) -amr -amrenc (-armv5te) (-armv6) (-armv6t2) (-armvfp) -bluray -bs2b -cdio -celt -chromaprint -cpudetection -debug -doc -ebur128 -fdk -flite -fontconfig -frei0r -fribidi -gcrypt -gme -gmp -gnutls -gsm -iec61883 -ieee1394 -jack -kvazaar -ladspa -libass -libcaca -libilbc -librtmp -libsoxr -libv4l -lzma (-mipsdspr1) (-mipsdspr2) (-mipsfpu) (-mmal) -modplug -mp3 (-neon) -nvenc -openal -openh264 -openssl -opus -oss -rubberband -samba -schroedinger -snappy -speex -ssh -static-libs {-test} -theora -twolame -v4l -vaapi -vdpau -vorbis -vpx -wavpack -webp -x264 -x265 -xvid -zimg -zvbi" ABI_X86="(64) -32 (-x32)" CPU_FLAGS_X86="mmx mmxext sse sse2 sse3 ssse3 -3dnow -3dnowext -aes -avx -avx2 -fma3 -fma4 -sse4_1 -sse4_2 -xop" FFTOOLS="aviocat cws2fws ffescape ffeval ffhash fourcc2pixfmt graph2dot ismindex pktdumper qt-faststart sidxindex trasher" 0 KiB
+[ebuild     U  ] dev-libs/zziplib-0.13.62-r2::gentoo [0.13.62-r1::gentoo] USE="sdl* -doc -static-libs {-test}" PYTHON_TARGETS="(-python2_7%*)" 0 KiB
+[ebuild     U  ] app-text/texlive-core-2016-r5::gentoo [2015-r1::gentoo] USE="X luajittex -cjk -doc -source -tk -xetex" 10,306 KiB
+[ebuild     U  ] media-plugins/alsa-plugins-1.1.1-r1::gentoo [1.1.1::gentoo] USE="ffmpeg* pulseaudio -debug -jack -libav -libsamplerate -speex" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild   R    ] virtual/ffmpeg-9-r2::gentoo  USE="X encode jpeg2k* sdl* truetype -gsm -libav -mp3 -opus -speex -theora -threads -vaapi -vdpau -x264" ABI_X86="(-32%) (-64%*) (-x32%)" 0 KiB
+[ebuild     U  ] media-video/vlc-2.2.6:0/5-8::gentoo [2.2.4-r1:0/5-8::gentoo] USE="X alsa avcodec avformat dbus dvbpsi encode ffmpeg flac* gcrypt gstreamer jpeg libsamplerate ncurses opengl png pulseaudio qt4 sdl* svg swscale truetype udev* xcb xv* -a52 -aalib (-altivec) -atmo (-audioqueue) -bidi -bluray -cdda -cddb -chromaprint -dc1394 -debug -directfb (-directx) -dts -dvb -dvd (-dxva2) -faad -fdk -fluidsynth -fontconfig -gme -gnome -gnutls -growl -httpd -ieee1394 -jack -kate -kde -libass -libav -libcaca -libnotify -libtar -libtiger -linsys -lirc -live -lua (-macosx-dialog-provider) (-macosx-eyetv) (-macosx-qtkit) (-macosx-quartztext) -matroska -modplug -mp3 -mpeg -mtp -musepack (-neon) -ogg -omxil -opencv -optimisememory -opus -postproc -projectm -qt5 -rdp -rtsp -run-as-root -samba -schroedinger -sdl-image -sftp -shout -sid -skins -speex -taglib {-test} -theora -tremor -twolame -upnp -v4l -vaapi -vcdx -vdpau -vlm -vnc -vorbis -vpx -wma-fixed -x264 -x265 -xml -zeroconf -zvbi" CPU_FLAGS_X86="mmx sse" 21,679 KiB
+[ebuild   R    ] media-video/mplayer-1.2.1::gentoo  USE="X alsa cdio dga* dvd dvdnav enca encode fbcon* gif iconv ipv6 jpeg jpeg2k* libass mng* network opengl osdmenu png pulseaudio sdl* shm truetype unicode xscreensaver xv -a52 -aalib (-altivec) (-aqua) -bidi -bl -bluray -bs2b -cddb -cdparanoia -cpudetection -debug -directfb -doc -dts -dv -dvb -faac -faad -ftp -ggi -gsm -jack -joystick -ladspa -libcaca -libmpeg2 -lirc -live -lzo -mad -md5sum -mp3 -nas -nut -openal -oss -pnm -pvr -radio -rar -rtc -rtmp -samba (-selinux) -speex -tga -theora -toolame -tremor -twolame -v4l -vcd -vdpau (-vidix) -vorbis -x264 -xinerama -xvid -xvmc -yuv4mpeg -zoran" CPU_FLAGS_X86="mmx mmxext sse sse2 ssse3 -3dnow -3dnowext" VIDEO_CARDS="-mga -s3virge -tdfx" 0 KiB
+[ebuild     U  ] www-client/chromium-59.0.3071.104::gentoo [59.0.3071.86::gentoo] USE="gtk3 hangouts (pic) proprietary-codecs pulseaudio suid system-ffmpeg -component-build -cups -custom-cflags -gconf -gnome-keyring -kerberos (-neon) (-selinux) (-system-libvpx) (-tcmalloc) {-test} -widevine" L10N="fr -am -ar -bg -bn -ca -cs -da -de -el -en-GB -es -es-419 -et -fa -fi -fil -gu -he -hi -hr -hu -id -it -ja -kn -ko -lt -lv -ml -mr -ms -nb -nl -pl -pt-BR -pt-PT -ro -ru -sk -sl -sr -sv -sw -ta -te -th -tr -uk -vi -zh-CN -zh-TW" 519,430 KiB
+[ebuild   R    ] media-libs/libcanberra-0.30-r5::gentoo  USE="alsa gstreamer gtk gtk3 pulseaudio sound udev* -gnome -oss -tdb" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] www-client/firefox-52.2.0::gentoo [45.8.0::gentoo] USE="dbus hardened jemalloc%* pulseaudio system-harfbuzz system-icu system-jpeg system-libevent system-libvpx system-sqlite -bindist -custom-cflags -custom-optimization -debug (-gmp-autoupdate) -gtk2% -hwaccel -jack% (-neon) -pgo (-rust) (-selinux) -startup-notification (-system-cairo) {-test} -wifi (-ffmpeg%*) (-gstreamer%*) (-jemalloc3%*) (-jit%)" L10N="fr -ach -af -an -ar -as -ast -az -bg -bn-BD -bn-IN -br -bs -ca -cak% -cs -cy -da -de -dsb% -el -en-GB -en-ZA -eo -es-AR -es-CL -es-ES -es-MX -et -eu -fa -ff% -fi -fy -ga -gd -gl -gn% -gu -he -hi -hr -hsb -hu -hy -id -is -it -ja -ka% -kab% -kk -km -kn -ko -lij% -lt -lv -mai -mk -ml -mr -ms -nb -nl -nn -or -pa -pl -pt-BR -pt-PT -rm -ro -ru -si -sk -sl -son -sq -sr -sv -ta -te -th -tr -uk -uz -vi -xh -zh-CN -zh-TW (-be%)" 207,500 KiB
+[ebuild     U  ] media-gfx/gimp-2.8.22:2::gentoo [2.8.14-r2:2::gentoo] USE="alsa bzip2 dbus exif jpeg jpeg2k lcms mng pdf png postscript smp svg tiff udev wmf xpm -aalib (-altivec) (-aqua) -curl -debug -doc -gnome -python {-test} (-webkit%)" CPU_FLAGS_X86="mmx sse" LINGUAS="fr -am -ar -ast -az -be -bg -br -ca -ca@valencia -cs -csb -da -de -dz -el -en_CA -en_GB -eo -es -et -eu -fa -fi -ga -gl -gu -he -hi -hr -hu -id -is -it -ja -ka -kk -km -kn -ko -lt -lv -mk -ml -ms -my -nb -nds -ne -nl -nn -oc -pa -pl -pt -pt_BR -ro -ru -rw -si -sk -sl -sr -sr@latin -sv -ta -te -th -tr -tt -uk -vi -xh -yi -zh_CN -zh_HK -zh_TW" PYTHON_TARGETS="python2_7" 20,385 KiB
+[ebuild   R    ] net-misc/networkmanager-1.4.4-r1::gentoo  USE="bluetooth* consolekit dhclient introspection modemmanager ncurses nss ppp wext wifi -audit -connection-sharing -gnutls -json -ofono -resolvconf (-selinux) -systemd -teamd {-test} -vala" ABI_X86="(64) -32 (-x32)" 0 KiB
+[ebuild     U  ] net-misc/openssh-7.5_p1-r1::gentoo [7.3_p1-r7::gentoo] USE="X hpn pam (pie) ssl -X509 -audit% -bindist -debug -kerberos -ldap -ldns -libedit (-libressl) -livecd -sctp (-selinux) -skey -ssh1 -static {-test}" 1,507 KiB
+[ebuild     U  ] mail-mta/nullmailer-2.0-r1::gentoo [1.13-r5::gentoo] USE="ssl" 244 KiB
+[ebuild     U  ] net-irc/irssi-1.0.3::gentoo [0.8.21::gentoo] USE="perl proxy socks5 (-libressl) (-selinux) (-ipv6%*) (-ssl%*)" 1,006 KiB
+[ebuild     U  ] app-admin/sudo-1.8.20_p2::gentoo [1.8.18_p1::gentoo] USE="nls pam sendmail -gcrypt% -ldap -offensive -openssl% (-selinux) -skey" 2,863 KiB
+[ebuild     U  ] sys-apps/openrc-0.26.3::gentoo [0.23.2::gentoo] USE="ncurses netifrc pam unicode -audit -debug -newnet (-prefix) (-selinux) -static-libs (-tools%)" 214 KiB
+[ebuild  NS    ] dev-lang/ruby-2.2.6:2.2::gentoo [2.1.9:2.1::gentoo] USE="berkdb gdbm ipv6 ncurses rdoc readline socks5 ssl -debug -doc -examples -jemalloc (-libressl) -rubytests -tk -xemacs" 10,245 KiB
+[ebuild   R    ] dev-ruby/rubygems-2.5.2::gentoo  USE="-server {-test}" RUBY_TARGETS="ruby21 ruby22* (-ruby23) (-ruby20%)" 0 KiB
+[ebuild     U  ] virtual/rubygems-11::gentoo [10::gentoo] RUBY_TARGETS="ruby21 ruby22%* (-rbx) (-ruby23) (-ruby20%)" 0 KiB
+[ebuild  N     ] dev-ruby/power_assert-0.3.1::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22 (-ruby23)" 14 KiB
+[ebuild  N     ] dev-ruby/test-unit-3.1.9:2::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22 (-ruby23)" 122 KiB
+[ebuild  N     ] dev-ruby/minitest-5.8.4:5::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22 (-ruby23)" 71 KiB
+[ebuild   R    ] dev-ruby/rake-10.5.0::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22* (-ruby23) (-ruby20%)" 0 KiB
+[ebuild     U  ] dev-ruby/json-1.8.3::gentoo [1.8.2-r1::gentoo] USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22%* (-ruby23) (-ruby20%)" 149 KiB
+[ebuild     U  ] net-libs/webkit-gtk-2.16.5:4/37::gentoo [2.14.5:4/37::gentoo] USE="(X) egl geolocation gstreamer introspection opengl webgl (-aqua) -coverage -doc -gles2 -gnome-keyring -jit -libnotify -nsplugin -spell {-test} -wayland" 14,313 KiB
+[ebuild     U  ] dev-libs/libgdata-0.17.8:0/22::gentoo [0.17.7:0/22::gentoo] USE="crypt gnome-online-accounts introspection -static-libs {-test} -vala" 1,431 KiB
+[ebuild     U  ] gnome-base/gvfs-1.30.4::gentoo [1.30.3::gentoo] USE="afp archive bluray cdda fuse gnome-keyring gnome-online-accounts google gphoto2 gtk http ios mtp nfs policykit udev udisks zeroconf -samba -systemd {-test}" 1,851 KiB
+[ebuild     U  ] gnome-extra/sushi-3.24.0::gentoo [3.21.91::gentoo] USE="-office" 291 KiB
+[ebuild   R    ] dev-ruby/racc-1.4.11::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22* (-ruby20%)" 0 KiB
+[ebuild   R    ] dev-ruby/rdoc-4.2.0::gentoo  USE="-doc {-test}" RUBY_TARGETS="ruby21 ruby22* (-ruby20%)" 0 KiB
+[ebuild     U  ] dev-tex/xcolor-2.12::gentoo [2.11::gentoo] USE="-doc" 752 KiB
+[ebuild     U  ] dev-texlive/texlive-basic-2016::gentoo [2015::gentoo] USE="luajittex -doc -source" 4,723 KiB
+[ebuild     U  ] dev-texlive/texlive-latex-2016::gentoo [2015::gentoo] USE="-doc -source" 861 KiB
+[ebuild     U  ] dev-texlive/texlive-genericrecommended-2016::gentoo [2015::gentoo] USE="-doc -source" 223 KiB
+[ebuild     U  ] dev-texlive/texlive-fontutils-2016::gentoo [2015::gentoo] USE="-doc -source" 208 KiB
+[ebuild     U  ] dev-texlive/texlive-langenglish-2016::gentoo [2015::gentoo] USE="-doc -source" 69 KiB
+[ebuild     U  ] dev-texlive/texlive-langfrench-2016::gentoo [2015::gentoo] USE="-doc -source" 147 KiB
+[ebuild     U  ] dev-texlive/texlive-latexrecommended-2016::gentoo [2015-r1::gentoo] USE="-doc -source" 12,729 KiB
+[ebuild     U  ] dev-texlive/texlive-fontsrecommended-2016::gentoo [2015::gentoo] USE="-doc -source" 90,668 KiB
+[ebuild     U  ] app-text/texlive-2016::gentoo [2015::gentoo] USE="X png truetype -cjk -context -detex -dvi2tty -epspdf -extra -games -graphics -humanities -jadetex -luatex -metapost -music -omega -pdfannotextractor -pstricks -publishers -science -tex4ht -texi2html -xetex -xindy -xml" L10N="en fr -af -ar -as -bg -bn -br -ca -cs -cy -da -de -el -en-GB -eo -es -et -eu -fa -fi -ga -gl -gu -he -hi -hr -hsb -hu -hy -ia -id -is -it -ja -kn -ko -la -lo -lt -lv -ml -mn -mr -nb -nl -nn -no -or -pa -pl -pt -rm -ro -ru -sa -sco -sk -sl -sq -sr -sv -ta -te -th -tk -tr -uk -vi -zh" 0 KiB
+[ebuild     U  ] dev-tex/pgf-3.0.1-r1::gentoo [3.0.1::gentoo] USE="-doc -source" 0 KiB
+[ebuild   R    ] media-gfx/inkscape-0.91-r3::gentoo  USE="dbus dia exif jpeg latex lcms* nls openmp postscript -cdr -gnome -imagemagick -inkjar -spell -static-libs -visio -wpg" PYTHON_TARGETS="python2_7" 0 KiB
+[blocks B      ] <dev-texlive/texlive-latex-2016 ("<dev-texlive/texlive-latex-2016" is blocking dev-texlive/texlive-basic-2016)
+[blocks B      ] <dev-texlive/texlive-basic-2016 ("<dev-texlive/texlive-basic-2016" is hard blocking dev-texlive/texlive-basic-2016)
+[blocks B      ] <dev-texlive/texlive-langenglish-2016 ("<dev-texlive/texlive-langenglish-2016" is hard blocking dev-texlive/texlive-basic-2016)
+[blocks B      ] <dev-texlive/texlive-latex-2016 ("<dev-texlive/texlive-latex-2016" is hard blocking dev-texlive/texlive-latex-2016)
+[blocks B      ] <dev-texlive/texlive-langfrench-2016 ("<dev-texlive/texlive-langfrench-2016" is hard blocking dev-texlive/texlive-basic-2016)
+[blocks B      ] <dev-texlive/texlive-basic-2016 ("<dev-texlive/texlive-basic-2016" is blocking dev-texlive/texlive-langenglish-2016, dev-texlive/texlive-langfrench-2016)
+
+Total: 171 packages (119 upgrades, 15 new, 6 in new slots, 31 reinstalls), Size of downloads: 1,666,358 KiB
+Conflict: 7 blocks (6 unsatisfied)
+
+!!! Multiple package instances within a single package slot have been pulled
+!!! into the dependency graph, resulting in a slot conflict:
+
+dev-lang/perl:0
+
+  (dev-lang/perl-5.24.1-r2:0/5.24::gentoo, ebuild scheduled for merge) pulled in by
+    =dev-lang/perl-5.24.1* required by (virtual/perl-Digest-SHA-5.950.100_rc-r2:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^^^                                                                                               
+    =dev-lang/perl-5.24* required by (virtual/perl-Getopt-Long-2.480.0-r1:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                           
+    =dev-lang/perl-5.24* required by (virtual/perl-MIME-Base64-3.150.0-r3:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                           
+    =dev-lang/perl-5.24* required by (virtual/perl-Digest-MD5-2.540.0-r3:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                          
+    =dev-lang/perl-5.24* required by (virtual/perl-Scalar-List-Utils-1.420.200_rc-r1:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                                      
+    =dev-lang/perl-5.24.1* required by (virtual/perl-ExtUtils-MakeMaker-7.100.200_rc:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^^^                                                                                                    
+    =dev-lang/perl-5.24.1* required by (virtual/perl-File-Spec-3.630.100_rc:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^^^                                                                                           
+    =dev-lang/perl-5.24.1* required by (virtual/perl-libnet-3.80.100_rc:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^^^                                                                                       
+    =dev-lang/perl-5.24.1* required by (virtual/perl-Test-Harness-3.360.100_rc:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^^^                                                                                              
+    =dev-lang/perl-5.24* required by (virtual/perl-Carp-1.400.0-r1:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                    
+    =dev-lang/perl-5.24* required by (virtual/perl-Data-Dumper-2.160.0-r1:0/0::gentoo, ebuild scheduled for merge)
+    ^              ^^^^^                                                                                           
+
+  (dev-lang/perl-5.22.3_rc4:0/5.22::gentoo, installed) pulled in by
+    dev-lang/perl:0/5.22=[-build(-)] required by (perl-core/File-Temp-0.230.400-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                  
+    dev-lang/perl:0/5.22= required by (virtual/perl-File-Temp-0.230.400-r5:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                          
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Authen-SASL-2.160.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                 
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/XML-Parser-2.440.0:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                             
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Locale-gettext-1.50.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                   
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Text-Unidecode-1.270.0:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                 
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/IO-Socket-SSL-2.24.0:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                               
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Net-SMTP-SSL-1.30.0:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                              
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Error-0.170.240:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                          
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/File-BaseDir-0.30.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                 
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/File-MimeInfo-0.270.0:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Unicode-EastAsianWidth-1.330.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                            
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/Digest-HMAC-1.30.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                
+    dev-lang/perl:0/5.22=[-build(-)] required by (dev-perl/File-DesktopEntry-0.40.0-r1:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                                      
+    dev-lang/perl:0/5.22= required by (dev-perl/pcsc-perl-1.4.14:0/0::gentoo, installed)
+                 ^^^^^^^^                                                                
+
+dev-libs/icu:0
+
+  (dev-libs/icu-58.2-r1:0/58.2::gentoo, ebuild scheduled for merge) pulled in by
+    (no parents that aren't satisfied by other packages in this slot)
+
+  (dev-libs/icu-58.1-r1:0/58.1::gentoo, installed) pulled in by
+    >=dev-libs/icu-51.2-r1:0/58.1=[abi_x86_64(-)] required by (media-libs/harfbuzz-1.4.5:0/0.9.18::gentoo, installed)
+                          ^^^^^^^^                                                                                    
+    >=dev-libs/icu-1.51:0/58.1= required by (dev-lang/spidermonkey-24.2.0-r3:24/24::gentoo, installed)
+                       ^^^^^^^^                                                                        
+
+dev-lang/ocaml:0
+
+  (dev-lang/ocaml-4.04.2:0/4.04.2::gentoo, ebuild scheduled for merge) pulled in by
+    (no parents that aren't satisfied by other packages in this slot)
+
+  (dev-lang/ocaml-4.04.0:0/4.04.0::gentoo, installed) pulled in by
+    dev-lang/ocaml:0/4.04.0=[ocamlopt] required by (dev-ml/result-1.2:0/1.2::gentoo, installed)
+                  ^^^^^^^^^^                                                                    
+    >=dev-lang/ocaml-3.12:0/4.04.0= required by (dev-ml/cppo-1.4.1:0/1.4.1::gentoo, installed)
+                         ^^^^^^^^^^                                                            
+    >=dev-lang/ocaml-4.02.3-r1:0/4.04.0=[ocamlopt] required by (dev-ml/ocamlbuild-0.10.1:0/0.10.1::gentoo, installed)
+                              ^^^^^^^^^^                                                                              
+    >=dev-lang/ocaml-3.12:0/4.04.0=[ocamlopt] required by (dev-ml/dose3-5.0.1:0/5.0.1::gentoo, installed)
+                         ^^^^^^^^^^                                                                       
+    >=dev-lang/ocaml-3.12:0/4.04.0=[ocamlopt] required by (dev-ml/uutf-1.0.1:0/1.0.1::gentoo, installed)
+                         ^^^^^^^^^^                                                                      
+    >=dev-lang/ocaml-4:0/4.04.0=[ocamlopt] required by (dev-ml/cmdliner-1.0.0:0/1.0.0::gentoo, installed)
+                      ^^^^^^^^^^                                                                          
+    >=dev-lang/ocaml-4.04_beta:0/4.04.0=[ocamlopt] required by (dev-ml/camlp4-4.04_p1:0/4.04_p1::gentoo, installed)
+                              ^^^^^^^^^^                                                                            
+    >=dev-lang/ocaml-3.10.2:0/4.04.0=[ocamlopt] required by (dev-ml/extlib-1.7.1:0/1.7.1::gentoo, installed)
+                           ^^^^^^^^^^                                                                        
+    >=dev-lang/ocaml-3.12:0/4.04.0=[ocamlopt] required by (dev-ml/ocaml-re-1.7.1:0/1.7.1::gentoo, installed)
+                         ^^^^^^^^^^                                                                          
+    >=dev-lang/ocaml-3.12:0/4.04.0=[ocamlopt] required by (dev-ml/camlbz2-0.6.0:0/0.6.0::gentoo, installed)
+                         ^^^^^^^^^^                                                                         
+    >=dev-lang/ocaml-4.03:0/4.04.0= required by (dev-ml/uchar-0.0.1:0/0.0.1::gentoo, installed)
+                         ^^^^^^^^^^                                                             
+    >=dev-lang/ocaml-4.02:0/4.04.0= required by (dev-ml/ocaml-re-1.7.1:0/1.7.1::gentoo, installed)
+                         ^^^^^^^^^^                                                                
+    >=dev-lang/ocaml-3.10.2:0/4.04.0=[ocamlopt] required by (dev-ml/ocamlgraph-1.8.7:0/1.8.7::gentoo, installed)
+                           ^^^^^^^^^^                                                                            
+    >=dev-lang/ocaml-3.12:0/4.04.0=[ocamlopt] required by (dev-ml/cudf-0.8-r1:0/0.8::gentoo, installed)
+                         ^^^^^^^^^^                                                                     
+    >=dev-lang/ocaml-4.02.3-r1:0/4.04.0=[ocamlopt] required by (dev-ml/findlib-1.7.1:0/0::gentoo, installed)
+                              ^^^^^^^^^^                                                                     
+    dev-lang/ocaml:0/4.04.0= required by (dev-ml/opam-1.3.1-r1:0/1.3.1::gentoo, installed)
+                  ^^^^^^^^^^                                                               
+    dev-lang/ocaml:0/4.04.0= required by (dev-ml/jsonm-1.0.1:0/1.0.1::gentoo, installed)
+                  ^^^^^^^^^^                                                             
+
+app-pda/libplist:0
+
+  (app-pda/libplist-2.0.0:0/3.1.0::gentoo, ebuild scheduled for merge) pulled in by
+    (no parents that aren't satisfied by other packages in this slot)
+
+  (app-pda/libplist-1.12:0/3::gentoo, installed) pulled in by
+    >=app-pda/libplist-1.11:0/3= required by (app-pda/libusbmuxd-1.0.9:0/2::gentoo, installed)
+                           ^^^^^                                                               
+    >=app-pda/libplist-1.11:0/3= required by (app-pda/libimobiledevice-1.2.0:0/6::gentoo, installed)
+                           ^^^^^                                                                     
+
+
+It may be possible to solve this problem by using package.mask to
+prevent one of those packages from being selected. However, it is also
+possible that conflicting dependencies exist such that they are
+impossible to satisfy simultaneously.  If such a conflict exists in
+the dependencies of two different packages, then those packages can
+not be installed simultaneously. You may want to try a larger value of
+the --backtrack option, such as --backtrack=30, in order to see if
+that will solve this conflict automatically.
+
+For more information, see MASKED PACKAGES section in the emerge man
+page or refer to the Gentoo Handbook.
+
+
+ * Error: The above package list contains packages which cannot be
+ * installed at the same time on the same system.
+
+  (dev-texlive/texlive-langenglish-2016:0/0::gentoo, ebuild scheduled for merge) pulled in by
+    >=dev-texlive/texlive-langenglish-2016 required by (app-text/texlive-2016:0/0::gentoo, ebuild scheduled for merge)
+
+  (dev-texlive/texlive-langfrench-2016:0/0::gentoo, ebuild scheduled for merge) pulled in by
+    >=dev-texlive/texlive-langfrench-2016 required by (app-text/texlive-2016:0/0::gentoo, ebuild scheduled for merge)
+
+  (dev-texlive/texlive-latex-2016:0/0::gentoo, ebuild scheduled for merge) pulled in by
+    >=dev-texlive/texlive-latex-2016 required by (dev-texlive/texlive-latexrecommended-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-latex-2016 required by (app-text/texlive-2016:0/0::gentoo, ebuild scheduled for merge)
+    dev-texlive/texlive-latex required by (dev-tex/xcolor-2.12:0/0::gentoo, ebuild scheduled for merge)
+
+  (dev-texlive/texlive-basic-2016:0/0::gentoo, ebuild scheduled for merge) pulled in by
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-fontutils-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-fontsrecommended-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-genericrecommended-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (app-text/texlive-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-langfrench-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-latex-2016:0/0::gentoo, ebuild scheduled for merge)
+    >=dev-texlive/texlive-basic-2016 required by (dev-texlive/texlive-langenglish-2016:0/0::gentoo, ebuild scheduled for merge)
+
+
+For more information about Blocked Packages, please refer to the following
+section of the Gentoo Linux x86 Handbook (architecture is irrelevant):
+
+https://wiki.gentoo.org/wiki/Handbook:X86/Working/Portage#Blocked_packages
+
+
+!!! All ebuilds that could satisfy "x11-base/xorg-server:0/1.19.2=" have been masked.
+!!! One of the following masked packages is required to complete your request:
+- x11-base/xorg-server-1.19.2::gentoo (masked by: )
+
+(dependency required by "x11-drivers/xf86-input-mouse-1.9.2::gentoo" [installed])
+(dependency required by "x11-base/xorg-drivers-1.19::gentoo[input_devices_mouse]" [installed])
+(dependency required by "x11-base/xorg-server-1.19.3::gentoo[xorg]" [ebuild])
+(dependency required by "@selected" [set])
+(dependency required by "@world" [argument])
+For more information, see the MASKED PACKAGES section in the emerge
+man page or refer to the Gentoo Handbook.
+
